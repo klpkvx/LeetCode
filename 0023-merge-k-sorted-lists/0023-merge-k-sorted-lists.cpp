@@ -13,25 +13,25 @@ public:
 
     ListNode *merge_lists (ListNode *l1, ListNode *l2)
     {
-        ListNode tmp;
-        ListNode *node = &tmp;
+        ListNode dummy;
+        ListNode *curr = &dummy;
         while (l1 && l2)
         {
-            if (l1->val > l2->val)
+            if (l1->val < l2->val)
             {
-                node->next = l2;
-                l2 = l2->next;
+                curr->next = l1;
+                l1 = l1->next;
             }
             else
             {
-                node->next = l1;
-                l1 = l1->next;
+                curr->next = l2;
+                l2 = l2->next;
             }
-            node = node->next;
+            curr = curr->next;
         }
+        curr->next = l1 ? l1 : l2;
 
-        node->next = l1 ? l1 : l2;
-        return tmp.next;
+        return dummy.next;
     }
 
     ListNode* mergeKLists(vector<ListNode*>& lists) {
