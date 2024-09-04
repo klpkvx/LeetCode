@@ -36,14 +36,13 @@ public:
 
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         if (lists.empty ())
-        return nullptr;
-
+            return nullptr;
         while (lists.size () > 1){
             vector<ListNode*> tmp;
-            for (int i = 0; i < lists.size (); i+= 2)
+            for (int i = 0; i < lists.size (); i+=2)
             {
                 ListNode *l1 = lists[i];
-                ListNode *l2 = i + 1 < lists.size () ? lists[i+1] : nullptr;
+                ListNode *l2 = i + 1 < lists.size () ? lists[i + 1] : nullptr;
                 tmp.push_back (merge_lists (l1, l2));
             }
             lists = std::move (tmp);
