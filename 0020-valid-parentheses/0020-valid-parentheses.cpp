@@ -2,8 +2,6 @@ class Solution {
 public:
     bool isValid(string s) {
         stack<char> st;
-        set<char> open = {'(', '{', '['};
-        set<char> closed = {')', '}', ']'};
         for (char c : s)
         {
             if (!st.empty ())
@@ -17,9 +15,7 @@ public:
                     return false;
             }
             else
-            {
                 st.push (c);
-            }
         }
         return st.empty ();
     }
