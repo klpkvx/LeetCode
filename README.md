@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/klpkvx/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/klpkvx/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/klpkvx/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 ## Tree
 |  |
 | ------- |
@@ -90,10 +92,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 ## Binary Tree
 |  |
 | ------- |
@@ -110,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/klpkvx/LeetCode/tree/master/1013-fibonacci-number) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
