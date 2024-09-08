@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/klpkvx/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 ## Hash Table
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/klpkvx/LeetCode/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/klpkvx/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/klpkvx/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 ## String
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/klpkvx/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/klpkvx/LeetCode/tree/master/0056-merge-intervals) |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 ## Sliding Window
 |  |
@@ -63,10 +66,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/klpkvx/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/klpkvx/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 ## Merge Sort
 |  |
@@ -143,9 +148,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
