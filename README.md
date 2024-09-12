@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/klpkvx/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
+| [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 ## Hash Table
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/klpkvx/LeetCode/tree/master/0011-container-with-most-water) |
 | [0141-linked-list-cycle](https://github.com/klpkvx/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0283-move-zeroes](https://github.com/klpkvx/LeetCode/tree/master/0283-move-zeroes) |
+| [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
 ## Recursion
 |  |
 | ------- |
