@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
 | [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 ## Hash Table
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/klpkvx/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## String
 |  |
 | ------- |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/klpkvx/LeetCode/tree/master/0075-sort-colors) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 ## Sliding Window
 |  |
@@ -98,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Merge Sort
 |  |
 | ------- |
