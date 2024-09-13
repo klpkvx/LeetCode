@@ -11,13 +11,12 @@
  */
 class Solution {
 public:
-
     bool test (TreeNode *p, TreeNode *q){
         if (!p && !q)
             return true;
-        else if (!p || !q)
+        if (!p || !q)
             return false;
-        else if (p->val != q->val)
+        if (p->val != q->val)
             return false;
         return test (p->left, q->right) && test (p->right, q->left);
     }
