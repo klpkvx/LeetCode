@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
+| [0228-summary-ranges](https://github.com/klpkvx/LeetCode/tree/master/0228-summary-ranges) |
 | [0239-sliding-window-maximum](https://github.com/klpkvx/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/klpkvx/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
