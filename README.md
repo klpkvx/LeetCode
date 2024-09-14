@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/klpkvx/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0136-single-number](https://github.com/klpkvx/LeetCode/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 | [0239-sliding-window-maximum](https://github.com/klpkvx/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/klpkvx/LeetCode/tree/master/0283-move-zeroes) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/klpkvx/LeetCode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/klpkvx/LeetCode/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/klpkvx/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/klpkvx/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/klpkvx/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/klpkvx/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/klpkvx/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/klpkvx/LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0506-relative-ranks](https://github.com/klpkvx/LeetCode/tree/master/0506-relative-ranks) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
@@ -113,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/klpkvx/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -236,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 ## Quickselect
