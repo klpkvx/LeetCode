@@ -11,18 +11,23 @@
  */
 class Solution {
 public:
-    bool test (TreeNode *p, TreeNode *q){
+
+    bool solve (TreeNode *p, TreeNode *q){
         if (!p && !q)
             return true;
         if (!p || !q)
             return false;
+
         if (p->val != q->val)
             return false;
-        return test (p->left, q->right) && test (p->right, q->left);
+
+        return solve (p->left, q->right) && solve (p->right, q->left);
     }
-    bool isSymmetric(TreeNode* p) {
-        if (!p)
+
+    bool isSymmetric(TreeNode* root) {
+        if (!root)
             return true;
-        return test (p->left, p->right);
+
+        return solve (root->left, root->right);
     }
 };
