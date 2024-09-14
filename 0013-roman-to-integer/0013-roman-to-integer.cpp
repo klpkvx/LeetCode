@@ -7,7 +7,7 @@ public:
         int result = 0;
         for (int i = 0; i < s.size (); i++){
 
-            if (nums[s[i]] < nums[s[i+1]]){
+            if (i + 1 < s.size () && nums[s[i]] < nums[s[i+1]]){
                 result -= nums[s[i]];
             }
             else
