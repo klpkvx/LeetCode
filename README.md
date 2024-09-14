@@ -195,10 +195,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/klpkvx/LeetCode/tree/master/0013-roman-to-integer) |
+| [0070-climbing-stairs](https://github.com/klpkvx/LeetCode/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/klpkvx/LeetCode/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/klpkvx/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/klpkvx/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/klpkvx/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/klpkvx/LeetCode/tree/master/0392-is-subsequence) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/klpkvx/LeetCode/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/klpkvx/LeetCode/tree/master/1013-fibonacci-number) |
 ## Union Find
 |  |
