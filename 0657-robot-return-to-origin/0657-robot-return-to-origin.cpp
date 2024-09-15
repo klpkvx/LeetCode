@@ -1,17 +1,17 @@
 class Solution {
 public:
     bool judgeCircle(string moves) {
-        pair<int,int> coord = {0, 0}; // x, y
+        int x = 0, y = 0;
         for (char move : moves){
             if (move == 'U')
-                coord.first += 1;
+                y++;
             else if (move == 'D')
-                coord.first -= 1;
+                y--;
             else if (move == 'L')
-                coord.second += 1;
+                x++;
             else if (move == 'R')
-                coord.second -= 1;
+                x--;
         }
-        return coord.first == 0 && coord.second == 0;
+        return x == 0 && y == 0;
     }
 };
