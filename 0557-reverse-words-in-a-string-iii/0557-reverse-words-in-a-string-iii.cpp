@@ -1,7 +1,7 @@
 class Solution {
 public:
     void reverse_word (string &s, int left, int right){
-        while (left <= right){
+        while (left < right){
             char tmp = s[left];
             s[left] = s[right];
             s[right] = tmp;
