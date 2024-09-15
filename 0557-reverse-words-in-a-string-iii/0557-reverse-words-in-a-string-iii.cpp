@@ -1,24 +1,24 @@
 class Solution {
 public:
-
-    void reverse_word (string &s, int start, int end){
-        while (start <= (end + start) / 2){
-            swap (s[start], s[end]);
-            start++;
-            end--;
+    void reverse_word (string &s, int left, int right){
+        while (left <= right){
+            char tmp = s[left];
+            s[left] = s[right];
+            s[right] = tmp;
+            left++;
+            right--;
         }
     }
 
     string reverseWords(string s) {
-        int i = 0;
-        for (int j = 0; j < s.size (); j++){
-            if (s[j] == ' '){
-                reverse_word (s, i, j - 1);
-                i = j + 1;
-            }
+        int left = 0;
+        int right = 0;
+        while (right < s.size ()){
+            while (right < s.size () && s[right] != ' ') right++;
+            reverse_word (s, left, right - 1);
+            right++;
+            left = right;
         }
-
-        reverse_word (s, i, s.size () - 1);
         return s;
     }
 };
