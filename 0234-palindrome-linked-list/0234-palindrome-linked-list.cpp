@@ -10,20 +10,32 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        vector<int> data;
-        while (head){
-            data.push_back(head->val);
-            head = head->next;
+    ListNode *reverse_list (ListNode *head){
+        ListNode *prev = nullptr;
+        ListNode *curr = head;
+        while (curr){
+            ListNode *tmp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = tmp;
         }
-        for (int left = 0, right = data.size () - 1; left <= right;){
-            if (data[left] == data[right]){
-                left++;
-                right--;
-            }
-            else{
+        return prev;
+    }
+
+    bool isPalindrome(ListNode* head) {
+        ListNode *slow = head;
+        ListNode *fast = head;
+        while (fast){
+            slow = slow->next;
+            fast = fast->next ? fast->next->next : fast->next;
+        }
+
+        ListNode *reversed_part = reverse_list (slow);
+        while (reversed_part && head){
+            if (reversed_part->val != head->val)
                 return false;
-            }
+            reversed_part = reversed_part->next;
+            head = head->next;
         }
         return true;
     }
