@@ -10,6 +10,7 @@ public:
             nums1_values.insert (value);
         for (int value : nums2)
             nums2_values.insert (value);
+
         for (int elem : nums1_values){
             if (!nums2_values.contains (elem))
                 nums1_which_not_in_nums2.push_back (elem);
