@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1560-number-of-students-doing-homework-at-a-given-time](https://github.com/klpkvx/LeetCode/tree/master/1560-number-of-students-doing-homework-at-a-given-time) |
+| [1677-matrix-diagonal-sum](https://github.com/klpkvx/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/klpkvx/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
+| [1677-matrix-diagonal-sum](https://github.com/klpkvx/LeetCode/tree/master/1677-matrix-diagonal-sum) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 ## Tree
 |  |
