@@ -7,7 +7,7 @@ public:
         for (int i = 0; i < mat.size (); i++) {
             main_diag += mat[i][i];
             if (i != sz - 1 - i)
-            second_diag += mat[i][sz - 1 - i];
+            second_diag += mat[sz - 1 - i][i];
         }
         return main_diag + second_diag;
     }
