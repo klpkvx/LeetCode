@@ -11,12 +11,11 @@ public:
             if (r_val > l_val){
                 answer[i] = r_val;
                 right--;
-                i--;
             } else {
                 answer[i] = l_val;
                 left++;
-                i--;
             }
+            i--;
         }
         return answer;
     }
