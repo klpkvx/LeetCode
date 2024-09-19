@@ -20,11 +20,11 @@ public:
         long long max_score = 0;
         for (const auto &[n1_, n2_] : zipped_arr) {
             long long n1 = n1_;
-            long long n2 = n2_; // maximized element in queue
+            long long n2 = n2_; // maximized min element in queue 
             k_range.push (n1);
             sum += n1;
             if (k_range.size () > k) {
-                // remove the smalleft in the range
+                // remove the smallest in the range
                 sum -= k_range.top ();
                 k_range.pop ();
             }
