@@ -6,24 +6,29 @@ public:
         for (int i = 0; i < path.size (); i++) {
             if (path[i] == '/')
                 continue;
+            
             string tmp;
-            while (i < path.size ()  && path[i] != '/')
+            while (i < path.size () && path[i] != '/'){
                 tmp.push_back (path[i++]);
-            if (tmp == ".")
-                continue;
-            else if (tmp == "..") {
+            }
+
+            if (tmp == ".."){
                 if (!st.empty ())
                     st.pop ();
+            } else if (tmp == ".") {
+                continue;
             } else {
                 st.push (tmp);
             }
         }
-        while (!st.empty ()){
+
+        while (!st.empty ()) {
             str = "/" + st.top () + str;
             st.pop ();
         }
-        if (str.size () == 0)
+        if (str.empty ()) {
             return "/";
+        }
         return str;
     }
 };
