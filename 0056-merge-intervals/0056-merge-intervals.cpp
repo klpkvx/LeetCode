@@ -6,14 +6,10 @@ public:
 
         vector<vector<int>> answer = {intervals[0]};
         for (int i = 1; i < intervals.size (); i++) {
-            int start = answer.back ()[0];
-            int end = answer.back ()[1];
-            int curr_start = intervals[i][0];
-            int curr_end = intervals[i][1];
-            if (curr_start <= end) {
-                answer.back ()[1] = max (curr_end, end);
+            if (intervals[i][0] <= answer.back ()[1]) {
+                answer.back ()[1] = max (intervals[i][1], answer.back ()[1]);
             } else {
-                answer.push_back ({curr_start, curr_end});
+                answer.push_back ({intervals[i][0], intervals[i][1]});
             }
         }
         return answer;
