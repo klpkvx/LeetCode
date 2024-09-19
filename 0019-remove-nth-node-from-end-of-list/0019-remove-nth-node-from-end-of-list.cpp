@@ -15,7 +15,8 @@ public:
         dummy->next = head;
         ListNode *first = dummy;
         ListNode *second = dummy;
-        for (int i = 0; i < n + 1; i++) {
+        
+        for (int i = 0; i <= n; i++) {
             first = first->next;
         }
 
@@ -23,8 +24,9 @@ public:
             first = first->next;
             second = second->next;
         }
-
+        ListNode *tmp = second->next;
         second->next = second->next->next;
-        return dummy->next;;
+        delete tmp;
+        return dummy->next;
     }
 };
