@@ -5,10 +5,7 @@ public:
         for (const string &str : strs) {
             string tmp = str;
             sort (tmp.begin (), tmp.end ());
-            if (data.contains (tmp))
                 data[tmp].push_back (str);
-            else
-                data[tmp] = {str};
         }
         vector<vector<string>> ans;
         for (auto &[str, val] : data) {
