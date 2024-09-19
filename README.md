@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/klpkvx/LeetCode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/klpkvx/LeetCode/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/klpkvx/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/klpkvx/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/klpkvx/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/klpkvx/LeetCode/tree/master/0242-valid-anagram) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/klpkvx/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/klpkvx/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/klpkvx/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/klpkvx/LeetCode/tree/master/0146-lru-cache) |
 | [0203-remove-linked-list-elements](https://github.com/klpkvx/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/klpkvx/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/klpkvx/LeetCode/tree/master/0234-palindrome-linked-list) |
@@ -359,4 +361,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0098-validate-binary-search-tree) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/klpkvx/LeetCode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/klpkvx/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
