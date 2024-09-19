@@ -16,7 +16,7 @@ public:
             return true;
         }
 
-        if (left < root->val && root->val < right) { 
+        if (left < root->val && root->val < right) {
             return is_valid (root->left, left, root->val) && is_valid (root->right, root->val, right);
         }
 
