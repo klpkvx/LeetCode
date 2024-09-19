@@ -24,7 +24,6 @@ public:
     }
 
     bool isValidBST(TreeNode* root) {
-        long long int min = -1000000000000, max = 1000000000000;
-        return is_valid (root, min, max);
-        }
+        return is_valid (root, LONG_MIN, LONG_MAX);
+    }
 };
