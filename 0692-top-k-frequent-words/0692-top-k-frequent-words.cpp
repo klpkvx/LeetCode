@@ -8,9 +8,9 @@ public:
 
         auto cmp = [] (const pair<int,string> &left, const pair<int,string> &right) {
             if (left.first == right.first) {
-                return !(left.second < right.second);
+                return left.second > right.second;
             }
-            return !(left.first > right.first);
+            return left.first < right.first;
         };
 
         priority_queue<pair<int, string>, vector<pair<int,string>>, decltype (cmp)> pq (cmp);
