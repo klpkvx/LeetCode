@@ -1,28 +1,24 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<string> values;
-        unordered_set<string> ops = {"+", "-", "*", "/"};
+        stack<int> values;
+        unordered_map<string, function<int (int, int)>> ops = {
+            {"+", [] (int a, int b) { return (a + b); }},
+            {"-", [] (int a, int b) { return (a - b); }},
+            {"*", [] (int a, int b) { return (a * b); }},
+            {"/", [] (int a, int b) { return (a / b); }},
+        };
         for (const string &curr : tokens) {
             if (!ops.contains (curr))
-                values.push (curr);
+                values.push (stoi (curr));
             else {
-                int left = stoi (values.top ());
+                int left = values.top ();
                 values.pop ();
-                int right = stoi (values.top ());
+                int right = values.top ();
                 values.pop ();
-                string result;
-                if (curr == "+")
-                    result = to_string (right + left);
-                else if (curr == "-")
-                    result = to_string (right - left);
-                else if (curr == "*")
-                    result = to_string (right * left);
-                else 
-                    result = to_string (right / left);
-                values.push (std::move (result));
+                values.push(ops[curr](right, left));
             }
         }
-        return stoi(values.top ());
+        return values.top ();
     }
 };
