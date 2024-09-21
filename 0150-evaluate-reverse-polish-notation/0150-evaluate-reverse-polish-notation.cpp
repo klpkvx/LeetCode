@@ -23,6 +23,6 @@ public:
                 values.push (std::move (result));
             }
         }
-        return values.empty () ?  stoi (tokens[0]) : stoi(values.top ());
+        return stoi(values.top ());
     }
 };
