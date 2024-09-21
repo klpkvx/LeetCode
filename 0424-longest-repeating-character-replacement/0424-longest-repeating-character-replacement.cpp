@@ -1,29 +1,34 @@
 class Solution {
 public:
 
-    int max_count (unordered_map<char,int>&data){
-        int max = -1;
-        for (auto &[elem, count] : data)
-            if (count > max)
-                max = count;
-        return max;
+/*
+
+
+
+*/
+    int get_max_freq (unordered_map<char,int> &data) {
+        int mx_freq = 0;
+        for (auto &[sym, val] : data) {
+            mx_freq = max (mx_freq, val);
+        }
+        return mx_freq;
     }
 
     int characterReplacement(string s, int k) {
-        unordered_map<char, int> data; // char -> freq;
-        int result = 0;
+        unordered_map<char, int> data; // symbol -> frequency in substring
         int left = 0;
         int right = 0;
-        for (int right = 0; right < s.size (); right++){
-
+        int max_len = 0;
+// AAAA: A(1), mx1, A(2), 
+        for (int right = 0; right < s.size (); right++) {
             data[s[right]]++;
-            while (right - left + 1 - max_count (data) > k){
-                data[s[left]]--;
-                left++;
+            
+            while (left < s.size () && (right - left + 1) - get_max_freq (data) > k) {
+                data[s[left++]]--;
             }
 
-            result = max (result, right - left + 1);
+            max_len = max (max_len, right - left + 1);
         }
-        return result;
+        return max_len;
     }
 };
