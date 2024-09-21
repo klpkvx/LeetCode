@@ -39,7 +39,7 @@ public:
             
         }
         //if the robo is at origin or the current direction is not north than return true
-        if(originVerifier(x,y) || current_dir!='N')
+        if(x == 0 && y == 0 || current_dir!='N')
             return true;
         
         return false;
