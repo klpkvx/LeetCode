@@ -6,25 +6,17 @@ public:
 // if arr[j] < arr[i]
 //      T[i] = max (T[i], T[j] + 1)
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> answer = {nums[0]};
+        vector<int> ans (nums.size (), 1);
+        int mx = 0;
         for (int i = 1; i < nums.size (); i++) {
-            if (nums[i] > answer.back ()) {
-                answer.push_back (nums[i]);
-            } else {
-                int left = 0, right = answer.size () - 1;
-                int ans = -1;
-                while (left <= right) {
-                    int mid = (left + right) >> 1;
-                    if (answer[mid] < nums[i]) {
-                        ans = mid;
-                        left = mid + 1;
-                    } else {
-                        right = mid - 1;
-                    }
+            for (int j = 0; j < i; j++) {
+                if (nums[j] < nums[i]) {
+                    ans[i] = max (ans[i], ans[j] + 1);
                 }
-                answer[ans + 1] = nums[i];
             }
         }
-        return answer.size ();
+
+        for (int i = 0; i < ans.size (); i++) mx = max (mx, ans[i]);
+        return mx;
     }
 };
