@@ -20,7 +20,7 @@ public:
                     result = to_string (right * left);
                 else 
                     result = to_string (right / left);
-                values.push (result);
+                values.push (std::move (result));
             }
         }
         return values.empty () ?  stoi (tokens[0]) : stoi(values.top ());
