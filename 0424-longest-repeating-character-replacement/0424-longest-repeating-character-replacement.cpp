@@ -19,11 +19,12 @@ public:
         int left = 0;
         int right = 0;
         int max_len = 0;
+        int max_freq = 0;
 // AAAA: A(1), mx1, A(2), 
         for (int right = 0; right < s.size (); right++) {
             data[s[right]]++;
-            
-            while (left < s.size () && (right - left + 1) - get_max_freq (data) > k) {
+            max_freq = max (max_freq, data[s[right]]);
+            while (left < s.size () && (right - left + 1) - max_freq > k) {
                 data[s[left++]]--;
             }
 
