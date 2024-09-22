@@ -1,25 +1,37 @@
 class Solution {
 public:
+
+    bool is_same (const unordered_map<char,int> &data, const unordered_map<char,int> &p_data) {
+        for (auto &[key, val] : p_data) {
+            auto it = data.find (key);
+            if (it == data.end ())
+                return false;
+            if (it->second != val)
+                return false;
+        }
+        return true;
+    }
+
     vector<int> findAnagrams(string s, string p) {
-        if (s.size () < p.size ())
-            return {};
-        vector<int> sHash (26, 0);
-        vector<int> pHash (26, 0);
-        vector<int> result;
-        for (int i = 0; i < p.size (); i++){
-            pHash[p[i] - 'a']++;
-            sHash[s[i] - 'a']++;
+        // hash table, sliding window;
+        unordered_map<char, int> data;
+        unordered_map<char, int> p_data;
+        for (char c : p){
+            p_data[c]++;
         }
-
-        if (pHash == sHash)
-            result.push_back (0);
-
-        for (int i = p.size (); i < s.size (); i++){
-            sHash[s[i] - 'a']++;
-            sHash[s[i - p.size ()] - 'a']--;
-            if (pHash == sHash)
-                result.push_back (i - p.size () + 1);
+        // baa // b: 1, a : 2
+        // aa // p_data.size () = 2/
+        vector<int> answer;
+        int left = 0;
+        for (int right = 0; right < s.size (); right++) {
+            data[s[right]]++;
+            while (left < s.size () && right - left + 1 > p.size ()) { 
+                data[s[left]]--;
+                left++;
+            }
+            if (right - left + 1 == p.size () && is_same (data, p_data))
+                answer.push_back (left);
         }
-        return result;
+        return answer;        
     }
 };
