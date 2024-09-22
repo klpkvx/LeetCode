@@ -13,14 +13,11 @@ public:
     }
 
     vector<int> findAnagrams(string s, string p) {
-        // hash table, sliding window;
         unordered_map<char, int> data;
         unordered_map<char, int> p_data;
         for (char c : p){
             p_data[c]++;
         }
-        // baa // b: 1, a : 2
-        // aa // p_data.size () = 2/
         vector<int> answer;
         int left = 0;
         for (int right = 0; right < s.size (); right++) {
