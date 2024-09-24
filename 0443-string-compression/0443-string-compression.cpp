@@ -2,20 +2,20 @@ class Solution {
 public:
     int compress(vector<char>& chars) {
         int ans = 0;
-        for (int right = 0; right < chars.size ();) {
-            char curr = chars[right];
+        for (int i = 0; i < chars.size ();) {
+            const char letter = chars[i];
             int count = 0;
-            while (right < chars.size () && curr == chars[right]) {
+            while (i < chars.size () && letter == chars[i]) {
                 count++;
-                right++;
-            }
-            chars[ans++] = curr;
+                i++;
+            }; 
+            chars[ans++] = letter;
             if (count > 1) {
-                for (char c : to_string (count)) {
+                for (const char c : to_string (count)) {
                     chars[ans++] = c;
                 }
             }
         }
         return ans;
-    }
+    }   
 };
