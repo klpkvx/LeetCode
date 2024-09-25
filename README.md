@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/klpkvx/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0506-relative-ranks](https://github.com/klpkvx/LeetCode/tree/master/0506-relative-ranks) |
 | [0523-continuous-subarray-sum](https://github.com/klpkvx/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/klpkvx/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/klpkvx/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/klpkvx/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/klpkvx/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0523-continuous-subarray-sum](https://github.com/klpkvx/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/klpkvx/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/klpkvx/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/klpkvx/LeetCode/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/klpkvx/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/klpkvx/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0525-contiguous-array](https://github.com/klpkvx/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/klpkvx/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
