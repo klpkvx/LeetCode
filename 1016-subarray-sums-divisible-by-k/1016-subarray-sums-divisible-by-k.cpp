@@ -11,8 +11,8 @@ public:
                 r += k;
             if (data.contains (r)) {
                 count += data[r];
-            }
-            data[r]++;
+                data[r]++;
+            } else data[r] = 1;
         }
         return count;
     }
