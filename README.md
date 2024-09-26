@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-find-the-difference-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1560-number-of-students-doing-homework-at-a-given-time](https://github.com/klpkvx/LeetCode/tree/master/1560-number-of-students-doing-homework-at-a-given-time) |
 | [1677-matrix-diagonal-sum](https://github.com/klpkvx/LeetCode/tree/master/1677-matrix-diagonal-sum) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## String
 |  |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/klpkvx/LeetCode/tree/master/0567-permutation-in-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Stack
 |  |
 | ------- |
@@ -232,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/klpkvx/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0374-guess-number-higher-or-lower](https://github.com/klpkvx/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 ## Interactive
 |  |
@@ -421,4 +425,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/klpkvx/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 <!---LeetCode Topics End-->
