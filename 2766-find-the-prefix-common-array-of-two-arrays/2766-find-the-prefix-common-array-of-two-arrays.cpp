@@ -8,20 +8,13 @@ public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         const int sz = A.size ();
         int count = 0;
-        unordered_set<int> a_set, b_set;
+        unordered_map<int, int> mp; // elem -> count
         vector<int> answer;
         for (int i = 0; i < sz; i++) {
-            a_set.insert (A[i]);
-            b_set.insert (B[i]);
-            if (A[i] == B[i]) {
-                count++;
-                answer.push_back (count);
-                continue;
-            }
-
-            if (b_set.find (A[i]) != b_set.end ()) count++;
-            if (a_set.find (B[i]) != a_set.end ()) count++;
-
+            mp[A[i]]++;
+            if (mp[A[i]] == 2) count++;
+            mp[B[i]]++;
+            if (mp[B[i]] == 2) count++;
             answer.push_back (count);
         }
         return answer;
