@@ -22,8 +22,14 @@ public:
             min_i = min (min_i, nums[i]);
             max_i = max (max_i, nums[i]);
         }
-        left = upper_bound (nums.begin (), nums.begin () + left, min_i) - nums.begin ();
-        right = lower_bound (nums.begin () + right + 1, nums.end (), max_i) - nums.begin ();
-        return right - left;
+
+        while (left > 0 && nums[left - 1] > min_i) {
+            left--;
+        }
+
+        while (right < nums.size () - 1 && nums[right + 1] < max_i) {
+            right++;
+        }
+        return right - left + 1;
     }
 };
