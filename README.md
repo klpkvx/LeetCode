@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
+| [0879-maximize-distance-to-closest-person](https://github.com/klpkvx/LeetCode/tree/master/0879-maximize-distance-to-closest-person) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
