@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/klpkvx/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2636-maximum-subsequence-score](https://github.com/klpkvx/LeetCode/tree/master/2636-maximum-subsequence-score) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-find-the-difference-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String
 |  |
 | ------- |
@@ -427,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/klpkvx/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/klpkvx/LeetCode/tree/master/0268-missing-number) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Simulation
 |  |
 | ------- |
