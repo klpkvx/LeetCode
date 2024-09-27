@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/klpkvx/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/klpkvx/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/klpkvx/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/klpkvx/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0506-relative-ranks](https://github.com/klpkvx/LeetCode/tree/master/0506-relative-ranks) |
 | [0628-maximum-product-of-three-numbers](https://github.com/klpkvx/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [1019-squares-of-a-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/klpkvx/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/klpkvx/LeetCode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/klpkvx/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -191,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/klpkvx/LeetCode/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/klpkvx/LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0567-permutation-in-string](https://github.com/klpkvx/LeetCode/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/klpkvx/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
@@ -219,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0506-relative-ranks](https://github.com/klpkvx/LeetCode/tree/master/0506-relative-ranks) |
+| [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/klpkvx/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2636-maximum-subsequence-score](https://github.com/klpkvx/LeetCode/tree/master/2636-maximum-subsequence-score) |
@@ -239,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/klpkvx/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0374-guess-number-higher-or-lower](https://github.com/klpkvx/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+| [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/klpkvx/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
