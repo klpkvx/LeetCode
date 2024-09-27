@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/klpkvx/LeetCode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/klpkvx/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/klpkvx/LeetCode/tree/master/0279-perfect-squares) |
 | [0301-remove-invalid-parentheses](https://github.com/klpkvx/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/klpkvx/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/klpkvx/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/klpkvx/LeetCode/tree/master/0268-missing-number) |
+| [0279-perfect-squares](https://github.com/klpkvx/LeetCode/tree/master/0279-perfect-squares) |
 | [0523-continuous-subarray-sum](https://github.com/klpkvx/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/klpkvx/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1013-fibonacci-number](https://github.com/klpkvx/LeetCode/tree/master/1013-fibonacci-number) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/klpkvx/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/klpkvx/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/klpkvx/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [0279-perfect-squares](https://github.com/klpkvx/LeetCode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/klpkvx/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0392-is-subsequence](https://github.com/klpkvx/LeetCode/tree/master/0392-is-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
