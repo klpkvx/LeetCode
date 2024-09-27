@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
 | [1034-subarrays-with-k-different-integers](https://github.com/klpkvx/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1046-max-consecutive-ones-iii](https://github.com/klpkvx/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1253-sort-the-matrix-diagonally](https://github.com/klpkvx/LeetCode/tree/master/1253-sort-the-matrix-diagonally) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1560-number-of-students-doing-homework-at-a-given-time](https://github.com/klpkvx/LeetCode/tree/master/1560-number-of-students-doing-homework-at-a-given-time) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/klpkvx/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1046-max-consecutive-ones-iii](https://github.com/klpkvx/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/klpkvx/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/klpkvx/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/klpkvx/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0658-find-k-closest-elements](https://github.com/klpkvx/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
+| [1046-max-consecutive-ones-iii](https://github.com/klpkvx/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/klpkvx/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
@@ -460,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/klpkvx/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/klpkvx/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/klpkvx/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 ## Monotonic Stack
