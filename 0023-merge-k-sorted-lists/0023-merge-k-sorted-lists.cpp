@@ -11,7 +11,10 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<int, vector<int>, greater<int>> pq;
+        auto cmp = [] (int left, int right) {
+            return !(left < right);
+        };
+        priority_queue<int, vector<int>, decltype (cmp)> pq (cmp);
         for (int i = 0; i < lists.size (); i++) {
             ListNode *head = lists[i];
             while (head) {
