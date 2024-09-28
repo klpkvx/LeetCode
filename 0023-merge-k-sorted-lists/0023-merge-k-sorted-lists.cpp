@@ -10,27 +10,34 @@
  */
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-        auto cmp = [] (int left, int right) {
-            return !(left < right);
-        };
-        priority_queue<int, vector<int>, decltype (cmp)> pq (cmp);
-        for (int i = 0; i < lists.size (); i++) {
-            ListNode *head = lists[i];
-            while (head) {
-                pq.push (head->val);
-                head = head->next;
-            }
-        }
 
-        ListNode dummy;
-        ListNode *head = &dummy;
-        while (!pq.empty ()) {
-            int val = pq.top ();
-            head->next = new ListNode (val);
-            head = head->next;
-            pq.pop ();
+ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
+    if(l1 == nullptr){
+        return l2;
+    }
+    if(l2 == nullptr){
+        return l1;
+    }
+    if(l1->val <= l2->val){
+        l1->next = mergeTwoLists(l1->next, l2);
+        return l1;
+    }
+    else{
+        l2->next = mergeTwoLists(l1, l2->next);
+        return l2;
+    }
+}
+
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        if (lists.empty ())
+            return nullptr;
+        if (lists.size () == 1)
+            return lists[0];
+        while (lists.size () > 1) {
+            lists.push_back (mergeTwoLists (lists[0], lists[1]));
+            lists.erase (lists.begin ());
+            lists.erase (lists.begin ());
         }
-        return dummy.next;
+        return lists.front ();
     }
 };
