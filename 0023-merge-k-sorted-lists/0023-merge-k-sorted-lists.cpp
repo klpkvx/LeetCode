@@ -10,43 +10,24 @@
  */
 class Solution {
 public:
-
-    ListNode *merge_lists (ListNode *l1, ListNode *l2)
-    {
-        ListNode dummy;
-        ListNode *curr = &dummy;
-        while (l1 && l2)
-        {
-            if (l1->val < l2->val)
-            {
-                curr->next = l1;
-                l1 = l1->next;
-            }
-            else
-            {
-                curr->next = l2;
-                l2 = l2->next;
-            }
-            curr = curr->next;
-        }
-        curr->next = l1 ? l1 : l2;
-
-        return dummy.next;
-    }
-
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if (lists.empty ())
-            return nullptr;
-        while (lists.size () > 1){
-            vector<ListNode*> tmp;
-            for (int i = 0; i < lists.size (); i+=2)
-            {
-                ListNode *l1 = lists[i];
-                ListNode *l2 = i + 1 < lists.size () ? lists[i + 1] : nullptr;
-                tmp.push_back (merge_lists (l1, l2));
+        priority_queue<int, vector<int>, greater<int>> pq;
+        for (int i = 0; i < lists.size (); i++) {
+            ListNode *head = lists[i];
+            while (head) {
+                pq.push (head->val);
+                head = head->next;
             }
-            lists = std::move (tmp);
         }
-        return lists[0];
+
+        ListNode dummy;
+        ListNode *head = &dummy;
+        while (!pq.empty ()) {
+            int val = pq.top ();
+            head->next = new ListNode (val);
+            head = head->next;
+            pq.pop ();
+        }
+        return dummy.next;
     }
 };
