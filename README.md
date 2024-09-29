@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/klpkvx/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/klpkvx/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 ## Breadth-First Search
 |  |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/klpkvx/LeetCode/tree/master/0279-perfect-squares) |
 | [0301-remove-invalid-parentheses](https://github.com/klpkvx/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 ## Binary Tree
 |  |
@@ -368,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/klpkvx/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Math
 |  |
 | ------- |
