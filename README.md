@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/klpkvx/LeetCode/tree/master/0768-partition-labels) |
 | [1119-robot-bounded-in-circle](https://github.com/klpkvx/LeetCode/tree/master/1119-robot-bounded-in-circle) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/klpkvx/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Sorting
 |  |
 | ------- |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/klpkvx/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/klpkvx/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/klpkvx/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/klpkvx/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Linked List
 |  |
 | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/klpkvx/LeetCode/tree/master/0768-partition-labels) |
 | [1019-squares-of-a-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/klpkvx/LeetCode/tree/master/1028-interval-list-intersections) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/klpkvx/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/klpkvx/LeetCode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
@@ -436,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/klpkvx/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0768-partition-labels](https://github.com/klpkvx/LeetCode/tree/master/0768-partition-labels) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/klpkvx/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/klpkvx/LeetCode/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2636-maximum-subsequence-score](https://github.com/klpkvx/LeetCode/tree/master/2636-maximum-subsequence-score) |
 ## Queue
