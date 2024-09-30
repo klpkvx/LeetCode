@@ -1,42 +1,40 @@
 class Solution {
 public:
-// string s including t in any order with duplicates
     string minWindow(string s, string t) {
-        unordered_map<char, int> t_data; // t[i] -> count
+        unordered_map<char,int> t_data;
+        int remain_chars = t.size ();
         for (int i = 0; i < t.size (); i++) {
             t_data[t[i]]++;
         }
-        int remain_chars = t.size ();
-        vector<int> minw = {0, INT_MAX};
-        for (int j = 0, i = 0; i < s.size (); i++) {
-            char letter = s[i];
-            if (t_data.find (letter) != t_data.end () && t_data[letter] > 0) {
+
+        string answer;
+        int left = 0;
+        int min_value = INT_MAX;
+        for (int right = 0; right < s.size (); right ++) {
+            char letter = s[right];
+            if (t_data.contains (letter) && t_data[letter] > 0) {
                 remain_chars--;
             }
             t_data[letter]--;
             if (remain_chars == 0) {
-                // collapse window
+                // squash window
                 while (true) {
-                    char lt = s[j];
-                    if (t_data.find (lt) != t_data.end () && t_data[lt] == 0) {
+                    char lt = s[left];
+                    if (t_data.contains (lt) && t_data[lt] == 0)
                         break;
-                    }
                     t_data[lt]++;
-                    j++;
+                    left++;
                 }
 
-                if (i - j < minw[1] - minw[0]) {
-                    minw[0] = j;
-                    minw[1] = i;
+                if (min_value > right - left + 1) {
+                    min_value = right - left + 1;
+                    answer = s.substr (left, right - left + 1);
                 }
-
                 remain_chars++;
-                t_data[s[j]]++;
-                j++;
+                t_data[s[left]]++;
+                left++;
             }
         }
-        if (minw[1] >= s.size ())
-            return "";
-        return s.substr (minw[0], minw[1] - minw[0] + 1);
+        return answer;
     }
 };
