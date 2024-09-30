@@ -27,7 +27,7 @@ public:
                     left++;
                 }
 
-                if (right - left + 1 < minw[1] - minw[0]) {
+                if (right - left < minw[1] - minw[0]) {
                     minw[1] = right;
                     minw[0] = left;
                 }
