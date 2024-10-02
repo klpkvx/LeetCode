@@ -2,14 +2,14 @@ class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         unordered_map<string, vector<string>> data;
-        for (const string &str : strs) {
-            string tmp = str;
-            sort (tmp.begin (), tmp.end ());
-                data[tmp].push_back (str);
+        for (int i = 0; i < strs.size (); i++) {
+            string sorted_word = strs[i];
+            sort (sorted_word.begin (), sorted_word.end ());
+            data[sorted_word].push_back (strs[i]);
         }
         vector<vector<string>> ans;
-        for (auto &[str, val] : data) {
-            ans.push_back (std::move (val));
+        for (const auto &[val, v] : data) {
+            ans.push_back (std::move(v));
         }
         return ans;
     }
