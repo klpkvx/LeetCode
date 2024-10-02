@@ -1,25 +1,22 @@
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
-        if (nums.empty ())
-            return {};
-        int start = nums[0];
         vector<string> answer;
-        for (int i = 1; i < nums.size (); i++){
-            if (nums[i] != nums[i - 1] + 1){
-                if (start == nums[i-1])
-                    answer.push_back (to_string (start));
-                else
-                    answer.push_back (to_string (start) + "->" + to_string (nums[i-1]));
-                start = nums[i];
+        for (int i = 0; i < nums.size (); i++) {
+            int start = i;
+            int end = i;
+            
+            while (i + 1 < nums.size () && (long long)nums[i + 1] - (long long)nums[end] == 1) {
+                i++;
+                end = i;
             }
-        }
 
-        if (start == nums.back ()){
-            answer.push_back (to_string (start));
+            answer.push_back (
+                             end - start == 0 ?
+                             to_string(nums[start]) : 
+                             to_string (nums[start]) + "->" + to_string (nums[end])
+                             );
         }
-        else 
-            answer.push_back (to_string (start) + "->" + to_string (nums.back ()));
         return answer;
     }
 };
