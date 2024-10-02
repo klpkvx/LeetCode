@@ -5,11 +5,11 @@ public:
         for (int i = 0; i < strs.size (); i++) {
             string sorted_word = strs[i];
             sort (sorted_word.begin (), sorted_word.end ());
-            data[sorted_word].push_back (strs[i]);
+            data[sorted_word].emplace_back (strs[i]);
         }
         vector<vector<string>> ans;
         for (const auto &[val, v] : data) {
-            ans.push_back (std::move(v));
+            ans.emplace_back (v);
         }
         return ans;
     }
