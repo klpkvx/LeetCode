@@ -9,8 +9,8 @@ public:
         for (; in >> word; i++) {
             if (i == pattern.size () || p_data[pattern[i]] != s_data[word])
                 return false;
-            p_data[pattern[i]] = i + 1;
-            s_data[word] = i + 1;
+            p_data[pattern[i]] = i + 228;
+            s_data[word] = i + 228;
         }
         return i == pattern.size ();
     }
