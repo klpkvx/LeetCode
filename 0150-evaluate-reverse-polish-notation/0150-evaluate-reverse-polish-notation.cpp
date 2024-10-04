@@ -2,23 +2,25 @@ class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
         stack<int> values;
-        unordered_map<string, function<int (int, int)>> ops = {
-            {"+", [] (int a, int b) { return (a + b); }},
-            {"-", [] (int a, int b) { return (a - b); }},
-            {"*", [] (int a, int b) { return (a * b); }},
-            {"/", [] (int a, int b) { return (a / b); }},
+        int answer = 0;
+        unordered_map<string, function<double (int, int)>> commands = {
+            {"+", [] (int a, int b) {return a + b;} },
+            {"*", [] (int a, int b) {return a * b;} },
+            {"-", [] (int a, int b) {return a - b;} },
+            {"/", [] (int a, int b) {return a / b;} },
         };
-        for (const string &curr : tokens) {
-            if (!ops.contains (curr))
+        for (int i = 0; i < tokens.size (); i++) {
+            const string &curr = tokens[i];
+            if (!commands.contains (curr)) {
                 values.push (stoi (curr));
-            else {
-                int left = values.top ();
-                values.pop ();
+            } else {
                 int right = values.top ();
                 values.pop ();
-                values.push(ops[curr](right, left));
+                int left = values.top ();
+                values.pop ();
+                values.push (commands[curr] (left, right));
             }
         }
-        return values.top ();
+        return values.empty () ? 0 : values.top ();
     }
 };
