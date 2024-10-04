@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/klpkvx/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/klpkvx/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/klpkvx/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0480-sliding-window-median](https://github.com/klpkvx/LeetCode/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/klpkvx/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/klpkvx/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/klpkvx/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/klpkvx/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0506-relative-ranks](https://github.com/klpkvx/LeetCode/tree/master/0506-relative-ranks) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/klpkvx/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -481,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/klpkvx/LeetCode/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/klpkvx/LeetCode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/klpkvx/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/klpkvx/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/klpkvx/LeetCode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/klpkvx/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0680-valid-palindrome-ii](https://github.com/klpkvx/LeetCode/tree/master/0680-valid-palindrome-ii) |
