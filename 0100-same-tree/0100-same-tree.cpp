@@ -12,22 +12,15 @@
 class Solution {
 public:
 
-    bool solve (TreeNode *p_sub, TreeNode *q_sub)
-    {
-        if (!p_sub && !q_sub)
+    bool solve (TreeNode *p, TreeNode *q) {
+        if (!p && !q)
             return true;
-        if (p_sub && !q_sub || !p_sub && q_sub)
-            return false;
 
-        if (p_sub->val == q_sub->val)
-        {   
-            bool result = true;
-            result &= solve (p_sub->left, q_sub->left);
-            result &= solve (p_sub->right, q_sub->right);
-            return result;
-        }
-        else
+        if (!p || !q)
             return false;
+        if (p->val != q->val)
+            return false;
+        return solve (p->left, q->left) && solve (p->right, q->right);
     }
 
     bool isSameTree(TreeNode* p, TreeNode* q) {
