@@ -9,16 +9,18 @@
  */
 class Solution {
 public:
+
+    TreeNode *solve (TreeNode *root, TreeNode *p, TreeNode *q) {
+        if (!root || root == p || root == q)
+            return root;
+        TreeNode *left = solve (root->left, p, q);
+        TreeNode *right = solve (root->right, p, q);
+        if (left && right)
+            return root;
+        return left ? left : right;
+    }
+
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (root == p || root == q || root == nullptr)
-            return root;
-        TreeNode *lowest_left_ancestor = lowestCommonAncestor (root->left, p, q);
-        TreeNode *lowest_right_ancestor = lowestCommonAncestor (root->right, p, q);
-        if (lowest_left_ancestor && lowest_right_ancestor) {
-            return root;
-        } else {
-            return lowest_left_ancestor ? lowest_left_ancestor : lowest_right_ancestor;
-        }
-        return root;
+        return solve (root, p, q);
     }
 };
