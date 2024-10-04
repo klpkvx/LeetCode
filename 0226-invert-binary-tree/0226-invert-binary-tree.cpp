@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-    void solve (TreeNode *root){
+
+    void solve (TreeNode *root) {
         if (!root)
             return;
         if (!root->left && !root->right)
             return;
-
-        solve (root->left);
-        solve (root->right);
         TreeNode *tmp = root->left;
         root->left = root->right;
         root->right = tmp;
+        solve (root->left);
+        solve (root->right);
     }
 
     TreeNode* invertTree(TreeNode* root) {
