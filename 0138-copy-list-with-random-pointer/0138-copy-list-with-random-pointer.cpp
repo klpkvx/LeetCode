@@ -13,7 +13,7 @@ public:
             data[curr]->next = data[curr->next];
             data[curr]->random = data[curr->random];
             curr = curr->next;
-  
+        }
         return data[head];
     }
 };
