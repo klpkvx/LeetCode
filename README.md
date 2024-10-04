@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/klpkvx/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/klpkvx/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0222-count-complete-tree-nodes](https://github.com/klpkvx/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/klpkvx/LeetCode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/klpkvx/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/0349-intersection-of-two-arrays) |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/klpkvx/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/klpkvx/LeetCode/tree/master/0113-path-sum-ii) |
+| [0222-count-complete-tree-nodes](https://github.com/klpkvx/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/klpkvx/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/klpkvx/LeetCode/tree/master/0113-path-sum-ii) |
+| [0222-count-complete-tree-nodes](https://github.com/klpkvx/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -521,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/klpkvx/LeetCode/tree/master/0136-single-number) |
+| [0222-count-complete-tree-nodes](https://github.com/klpkvx/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/klpkvx/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/klpkvx/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/klpkvx/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
