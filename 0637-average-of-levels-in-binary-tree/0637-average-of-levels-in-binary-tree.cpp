@@ -11,26 +11,27 @@
  */
 class Solution {
 public:
-    void solve (TreeNode *root, int level, unordered_map<int, vector<int>> &data) {
-        if (!root)
-            return;
-        data[level].push_back (root->val);
-        solve (root->left, level + 1, data);
-        solve (root->right, level + 1, data);
-    }   
-
     vector<double> averageOfLevels(TreeNode* root) {
-        unordered_map<int, vector<int>> data; // level -> elements;
-        solve (root, 0, data);
-        vector<double> result (data.size ());
-        for (auto &[level, values] : data) {
+        if (!root)
+            return {};
+        queue<TreeNode *> todo;
+        todo.push (root);
+        vector<double> answer;
+        while (!todo.empty ()) {
+            int n = todo.size ();
             double avg = 0;
-            for (int i = 0; i < values.size (); i++) {
-                avg += values[i];
+            for (int i = 0; i < n; i++) {
+                TreeNode *root = todo.front ();
+                todo.pop ();
+                avg += root->val;
+                if (root->left)
+                    todo.push (root->left);
+                if (root->right)
+                    todo.push (root->right);
             }
-            avg /= values.size ();
-            result[level] = avg;
+            avg /= n;
+            answer.push_back (avg);
         }
-        return result;
+        return answer;
     }
 };
