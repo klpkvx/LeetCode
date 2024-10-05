@@ -11,18 +11,45 @@
  */
 class Solution {
 public:
-
-    bool solve (TreeNode *p, TreeNode *q) {
-        if (!p && !q)
-            return true;
-        if (!p || !q)
-            return false;
-        if (p->val != q->val)
-            return false;
-        return solve (p->left, q->right) && solve (p->right, q->left);
-    }
-
     bool isSymmetric(TreeNode* root) {
-        return solve (root->left, root->right);
+        if (!root)
+            return true;
+
+        stack<TreeNode *> st;
+        if (root->left) {
+            if (!root->right)
+                return false;
+            st.push (root->left);
+            st.push (root->right);
+        } else if (root->right)
+            return false;
+
+        while (!st.empty ()) {
+            if (st.size () % 2 != 0)
+                return false;
+            TreeNode *right = st.top ();
+            st.pop ();
+            TreeNode *left = st.top ();
+            st.pop ();
+            if (right->val != left->val)
+                return false;
+
+            if (left->left) {
+                if (!right->right) 
+                    return false;
+                st.push (left->left);
+                st.push (right->right);
+            } else if (right->right)
+                return false;
+
+            if (left->right) {
+                if (!right->left)
+                    return false;
+                st.push (left->right);
+                st.push (right->left);
+            } else if (right->left)
+                return false;
+        }
+        return true;
     }
 };
