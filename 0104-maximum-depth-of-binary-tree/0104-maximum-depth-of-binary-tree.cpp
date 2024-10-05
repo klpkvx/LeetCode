@@ -14,9 +14,21 @@ public:
     int maxDepth(TreeNode* root) {
         if (!root)
             return 0;
-
-        if (!root->left && !root->right)
-            return 1;
-        return 1 + max(maxDepth (root->left), maxDepth(root->right));
+        queue<TreeNode *> todo;
+        todo.push (root);
+        int level = 0;
+        while (!todo.empty ()) {
+            int n = todo.size ();
+            level++;
+            for (int i = 0; i < n; i++) {
+                TreeNode *curr = todo.front ();
+                todo.pop ();
+                if (curr->left)
+                    todo.push (curr->left);
+                if (curr->right)
+                    todo.push (curr->right);
+            }
+        }
+        return level;
     }
 };
