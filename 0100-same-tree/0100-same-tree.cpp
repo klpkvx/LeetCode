@@ -12,18 +12,26 @@
 class Solution {
 public:
 
-    bool solve (TreeNode *p, TreeNode *q) {
-        if (!p && !q)
-            return true;
-
-        if (!p || !q)
-            return false;
-        if (p->val != q->val)
-            return false;
-        return solve (p->left, q->left) && solve (p->right, q->right);
-    }
-
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return solve (p, q);
+        queue<TreeNode *> todo;
+        todo.push (p);
+        todo.push (q);
+        while (!todo.empty ()) {
+            TreeNode *q2 = todo.front ();
+            todo.pop ();
+            TreeNode *p2 = todo.front ();
+            todo.pop ();
+            if (!p2 && !q2)
+                continue;
+            if (!p2 || !q2)
+                return false;
+            if (p2->val != q2->val)
+                return false;
+            todo.push (p2->left);
+            todo.push (q2->left);
+            todo.push (p2->right);
+            todo.push (q2->right);
+        }
+        return true;
     }
 };
