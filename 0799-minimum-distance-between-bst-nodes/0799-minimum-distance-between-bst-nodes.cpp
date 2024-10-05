@@ -21,10 +21,10 @@ public:
 
         solve(root->left);
         if (prev) {
-            ans = min (ans, root->val - prev->val);
+            ans = min(ans, root->val - prev->val);
         }
         prev = root;
-        solve (root->right);
+        solve(root->right);
     }
 
     int minDiffInBST(TreeNode* root) {
