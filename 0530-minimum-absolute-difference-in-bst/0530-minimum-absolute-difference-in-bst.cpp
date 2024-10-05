@@ -18,7 +18,7 @@ public:
             return;
         solve (root->left);
         if (prev)
-            answer = min (answer, abs (root->val - prev->val));
+            answer = min (answer, root->val - prev->val);
         prev = root;
         solve (root->right);
     }
