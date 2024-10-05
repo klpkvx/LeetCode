@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/klpkvx/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/klpkvx/LeetCode/tree/master/0768-partition-labels) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/klpkvx/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/klpkvx/LeetCode/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1119-robot-bounded-in-circle](https://github.com/klpkvx/LeetCode/tree/master/1119-robot-bounded-in-circle) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/klpkvx/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Sorting
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/klpkvx/LeetCode/tree/master/1030-smallest-string-starting-from-leaf) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/klpkvx/LeetCode/tree/master/1030-smallest-string-starting-from-leaf) |
 | [2103-find-all-groups-of-farmland](https://github.com/klpkvx/LeetCode/tree/master/2103-find-all-groups-of-farmland) |
 ## Breadth-First Search
 |  |
@@ -420,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/klpkvx/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/klpkvx/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/klpkvx/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/klpkvx/LeetCode/tree/master/1030-smallest-string-starting-from-leaf) |
 ## Math
 |  |
 | ------- |
@@ -474,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/klpkvx/LeetCode/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/klpkvx/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0301-remove-invalid-parentheses](https://github.com/klpkvx/LeetCode/tree/master/0301-remove-invalid-parentheses) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/klpkvx/LeetCode/tree/master/1030-smallest-string-starting-from-leaf) |
 ## Trie
 |  |
 | ------- |
