@@ -1,7 +1,7 @@
 class Solution {
 public:
-//  l      m        r
-// [4,5,6,-3,-2,0,1,2] | target = 0
+//  l     m l m r
+// [4,5,6,7,0,1,2] | target = 0
     int search(vector<int>& nums, int target) {
         int left = 0;
         int right = nums.size () - 1;
