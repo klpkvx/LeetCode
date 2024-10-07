@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0792-binary-search](https://github.com/klpkvx/LeetCode/tree/master/0792-binary-search) |
 | [0879-maximize-distance-to-closest-person](https://github.com/klpkvx/LeetCode/tree/master/0879-maximize-distance-to-closest-person) |
+| [0954-maximum-sum-circular-subarray](https://github.com/klpkvx/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/klpkvx/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1019-squares-of-a-sorted-array](https://github.com/klpkvx/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/klpkvx/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0954-maximum-sum-circular-subarray](https://github.com/klpkvx/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -498,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/klpkvx/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0392-is-subsequence](https://github.com/klpkvx/LeetCode/tree/master/0392-is-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/klpkvx/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0954-maximum-sum-circular-subarray](https://github.com/klpkvx/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1013-fibonacci-number](https://github.com/klpkvx/LeetCode/tree/master/1013-fibonacci-number) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/klpkvx/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Memoization
@@ -563,10 +566,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/klpkvx/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0954-maximum-sum-circular-subarray](https://github.com/klpkvx/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/klpkvx/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0954-maximum-sum-circular-subarray](https://github.com/klpkvx/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## String Matching
 |  |
 | ------- |
