@@ -9,15 +9,17 @@ public:
             else if (nums[i] == pivot)
                 equal++;
         }
-        int i = 0, j = low, k = equal + low;
+        int high = equal + low;
+        int same = low;
+        low = 0;
         vector<int> answer (nums.size ());
         for (int elem : nums) {
             if (elem < pivot) {
-                answer[i++] = elem;
+                answer[low++] = elem;
             } else if (elem == pivot) {
-                answer[j++] = elem;
+                answer[same++] = elem;
             } else {
-                answer[k++] = elem;
+                answer[high++] = elem;
             }
         }
         return answer;
