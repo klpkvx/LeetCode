@@ -491,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/klpkvx/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1013-fibonacci-number](https://github.com/klpkvx/LeetCode/tree/master/1013-fibonacci-number) |
 | [1119-robot-bounded-in-circle](https://github.com/klpkvx/LeetCode/tree/master/1119-robot-bounded-in-circle) |
+| [2998-count-symmetric-integers](https://github.com/klpkvx/LeetCode/tree/master/2998-count-symmetric-integers) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -642,4 +643,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/klpkvx/LeetCode/tree/master/0207-course-schedule) |
+## Enumeration
+|  |
+| ------- |
+| [2998-count-symmetric-integers](https://github.com/klpkvx/LeetCode/tree/master/2998-count-symmetric-integers) |
 <!---LeetCode Topics End-->
