@@ -1,27 +1,26 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        vector<int> res (nums1.size () + nums2.size ());
-        int r_ptr = 0, l = 0, r = 0, val = 0;
-        for (r_ptr = 0; r_ptr < res.size (); r_ptr++) {
-            if (l < nums1.size () && r < nums2.size ())
-                val = nums1[l] < nums2[r] ? nums1[l++] : nums2[r++];
-            else if (l < nums1.size ())
-                val = nums1[l++];
-            else if (r < nums2.size ())
-                val = nums2[r++];
-            res[r_ptr] = val;
+        int i = 0, j = 0, m1 = 0, m2 = 0;
+        int n = nums1.size ();
+        int m = nums2.size ();
+        for (int count = 0; count <= (n + m) / 2; count++) {
+            m2 = m1;
+            if (i != n && j != m) {
+                if (nums1[i] > nums2[j]) {
+                    m1 = nums2[j++];
+                } else {
+                    m1 = nums1[i++];
+                }
+            } else if (i < n) {
+                m1 = nums1[i++];
+            } else {
+                m1 = nums2[j++];
+            }
         }
-
-        if (res.empty ())
-            return 0;
-        if (res.size () == 1)
-            return res[0];
-
-        int ind = (nums1.size () + nums2.size ()) / 2 ;
-        if (res.size () % 2 == 0)
-            return (res[ind] + res[ind - 1]) / 2.;
-        else
-            return res[ind];
+        if ((n + m) % 2 == 1) {
+            return (double) m1;
+        } 
+        return (double (m1) + double (m2)) / 2.;
     }
 };
