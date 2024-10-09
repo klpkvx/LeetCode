@@ -6,8 +6,7 @@ public:
         uint32_t value = 0;
         int shift = 31;
         while (n > 0) {
-            value ^= (n % 2) << shift;
-            shift--;
+            value ^= (n % 2) << shift--;
             n = n >> 1;
         }
         return value;
