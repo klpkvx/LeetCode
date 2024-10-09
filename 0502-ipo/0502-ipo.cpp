@@ -1,30 +1,26 @@
 class Solution {
 public:
     int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
-
-        auto cmp = [] (const pair<int,int> &left, const pair<int,int> &right) {
-            return left.first > right.first;
+        auto cmp = [] (const pair<int,int> &lhs, const pair<int,int> &rhs) {
+            return lhs.first > rhs.first; // min capital at the top capq
         };
-
-        auto cmp2 = [] (const pair<int,int> &left, const pair<int,int> &right) {
-            return left.second < right.second;
-        };
-
-        priority_queue<pair<int,int>, vector<pair<int,int>>, decltype (cmp)> minheap (cmp); // capital -> profit
-        priority_queue<pair<int,int>, vector<pair<int,int>>, decltype (cmp2)> maxheap (cmp2);
-        for (int i = 0; i < profits.size (); i++) {
-            minheap.push ({capital[i], profits[i]});
+        priority_queue<pair<int,int>, vector<pair<int,int>>, decltype (cmp)> capq (cmp); // capital -> profit
+        for (int i = 0; i < capital.size (); i++) {
+            capq.push ({capital[i], profits[i]});
         }
-        
+        auto cmp_pro = [] (const pair<int,int> &lhs, const pair<int,int> &rhs) {
+            return lhs.second < rhs.second; // max profit at the top proq
+        };
+        priority_queue<pair<int,int>, vector<pair<int,int>>, decltype (cmp_pro)> proq (cmp_pro); // capital -> profit
         while (k--) {
-            while (!minheap.empty () && minheap.top ().first <= w) {
-                maxheap.push ({minheap.top ().first, minheap.top ().second});
-                minheap.pop ();
+            while (!capq.empty () && capq.top ().first <= w) {
+                proq.push ({capq.top ().first, capq.top ().second});
+                capq.pop ();
             }
-            if (maxheap.empty ())
+            if (proq.empty ())
                 break;
-            w += maxheap.top ().second;
-            maxheap.pop ();
+            w += proq.top ().second;
+            proq.pop ();
         }
         return w;
     }
