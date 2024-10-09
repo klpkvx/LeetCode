@@ -1,9 +1,6 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int value = 0;
-        for (int i = 0; i < nums.size (); i++)
-            value ^= nums[i];
-        return value;
+        return accumulate (nums.begin (), nums.end (), 0, [] (int l, int v) { return l ^ v; });
     }
 };
