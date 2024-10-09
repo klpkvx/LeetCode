@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/klpkvx/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/klpkvx/LeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/klpkvx/LeetCode/tree/master/0169-majority-element) |
+| [0190-reverse-bits](https://github.com/klpkvx/LeetCode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/klpkvx/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/klpkvx/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0954-maximum-sum-circular-subarray](https://github.com/klpkvx/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -600,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/klpkvx/LeetCode/tree/master/0136-single-number) |
+| [0190-reverse-bits](https://github.com/klpkvx/LeetCode/tree/master/0190-reverse-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/klpkvx/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/klpkvx/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/klpkvx/LeetCode/tree/master/0371-sum-of-two-integers) |
