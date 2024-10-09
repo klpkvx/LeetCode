@@ -16,9 +16,7 @@ public:
                 d = -1;
             idx += d;
         }
-        string answer;
-        for (auto & str : data)
-            answer += str;
+        string answer = accumulate (data.begin (), data.end (), string{});
         return answer;
     }
 };
