@@ -15,7 +15,7 @@ public:
             pq.push (para (nums1[i] + nums2[0], 0));
         }
 
-        while (k > 0 && !pq.empty ()) {
+        while (k-- && !pq.empty ()) {
             const para &p = pq.top ();
             int sum = p.sum;
             int pos = p.index;
@@ -26,7 +26,6 @@ public:
                 // and adding the next element in nums2
                 pq.push (para (sum - nums2[pos] + nums2[pos + 1], pos + 1));
             }
-            k--;
         }
         return result;
     }
