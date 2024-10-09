@@ -9,7 +9,7 @@ public:
 
             if (!tmp_word.empty ()) {
                 reverse (tmp_word.begin (), tmp_word.end ());
-                answer += answer.empty () ? tmp_word : " " + tmp_word;
+                answer += move (answer.empty () ? tmp_word : " " + tmp_word);
             }            
         }
         return answer;
