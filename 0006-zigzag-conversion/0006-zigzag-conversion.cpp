@@ -16,6 +16,6 @@ public:
                 d = -1;
             idx += d;
         }
-        return string (move (accumulate (data.begin (), data.end (), string{})));
+        return accumulate (data.begin (), data.end (), string{});
     }
 };
