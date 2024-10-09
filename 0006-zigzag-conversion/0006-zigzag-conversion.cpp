@@ -3,7 +3,7 @@ public:
     //s[i * numrows + j]
     // abcdefghi -> 1234 321 23
     string convert(string s, int numrows) {
-        if (numrows == 1 || s.size () < numrows)
+        if (numrows <= 1)
             return s;
         vector<string> data (numrows, "");
         int idx = 0; // for numrows
