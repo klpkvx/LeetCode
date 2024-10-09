@@ -5,8 +5,9 @@ public:
     uint32_t reverseBits(uint32_t n) {
         uint32_t value = 0;
         int shift = 31;
-        while (n > 0) {
-            value ^= (n % 2) << shift--;
+        for (int i = 0; i < 32; i++) {
+            value = value << 1;
+            value |= (n & 1);
             n = n >> 1;
         }
         return value;
