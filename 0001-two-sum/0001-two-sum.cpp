@@ -1,13 +1,13 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> data; // nums[i] -> index
+        unordered_map<int, int> table; // nums[i] -> index
         for (int i = 0; i < nums.size (); i++) {
-            int look_for_val = target - nums[i];
-            if (data.contains (look_for_val)) {
-                return {data[look_for_val], i};
+            int elem_to_search = target - nums[i];
+            if (table.contains (elem_to_search)) {
+                return {table[elem_to_search], i};
             }
-            data[nums[i]] = i;
+            table[nums[i]] = i;
         }
         return {};
     }
