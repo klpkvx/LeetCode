@@ -1,19 +1,31 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-        vector<int> prefix (nums.size (), 1);
-        vector<int> postfix (nums.size (), 1);
-        prefix[0] = 1;
-        postfix[nums.size () - 1] = 1;
+        vector<int> prefix_prod (nums.size () + 1, 1);
+        vector<int> suffix_prod (nums.size () + 1, 1);
         for (int i = 1; i < nums.size (); i++) {
-            prefix[i] = prefix[i - 1] * nums[i - 1];
+            prefix_prod[i] = prefix_prod[i - 1] * nums[i - 1];
         }
-        for (int i = nums.size () - 2; i >= 0; i--) {
-            postfix[i] = postfix[i + 1] * nums[i + 1];
+
+        for (int j = nums.size () - 2; j >= 0; j--) {
+            suffix_prod[j] = suffix_prod[j + 1] * nums[j + 1];
         }
-        for (int i = 0; i < nums.size (); i++) {
-            nums[i] = prefix[i] * postfix[i];
+        vector<int> answer;
+        for (int i =  0; i < nums.size (); i++) {
+            answer.push_back (prefix_prod[i] * suffix_prod[i]);
         }
-        return nums;
+        return answer;
     }
 };
+
+
+// TLE
+        // vector<int> answer (nums.size (), 1);
+        // for (int i = 0; i < nums.size (); i++) {
+        //     for (int j = 0; j < nums.size (); j++) {
+        //         if (i == j)
+        //             continue;
+        //         answer[i] *= nums[j];
+        //     }
+        // }
+        // return answer;
