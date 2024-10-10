@@ -1,12 +1,13 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> st;
-        for (char c : s) {
-            if (c == '(' || c == '{' || c == '[') {
-                st.push (c);
-            } else if (!st.empty () &&  (st.top () == '(' && c == ')' || st.top () == '{' && c == '}' || st.top () == '[' && c == ']'))
-                st.pop ();
+        stack<int> st;
+        for (int i = 0; i < s.size (); i++) {
+            char letter = s[i];
+            if (letter == '(' || letter == '[' || letter == '{') {
+                st.push (letter);
+            } else if (!st.empty () && (st.top () == '(' && letter == ')' || st.top () == '[' && letter == ']' || st.top () == '{' && letter == '}'))
+                    st.pop ();
             else
                 return false;
         }
