@@ -11,7 +11,7 @@ public:
                 i++;
             }
             
-            while (end >= 0 && start < s.size () && (end + start) / 2 >= start ) {
+            while ((end + start) / 2 >= start) {
                 swap (s[start], s[end]);
                 start++;
                 end--;
