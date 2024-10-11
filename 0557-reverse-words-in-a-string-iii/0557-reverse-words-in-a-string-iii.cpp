@@ -11,7 +11,7 @@ public:
                 i++;
             }
             
-            while ((end + start) >= start * 2) {
+            while (end + start >= start * 2) {
                 swap (s[start], s[end]);
                 start++;
                 end--;
