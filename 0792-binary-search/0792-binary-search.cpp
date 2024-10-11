@@ -7,11 +7,10 @@ public:
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
                 return mid;
-            } else if (nums[mid] < target){
-                left++;
-            } else {
+            } else if (nums[mid] > target) {
                 right--;
-            }
+            } else // nums[mid] < target
+                left++;
         }
         return -1;
     }
