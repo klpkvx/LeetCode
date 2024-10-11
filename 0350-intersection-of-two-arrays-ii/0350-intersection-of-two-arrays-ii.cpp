@@ -1,20 +1,18 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        vector<int> answer;
-        unordered_map<int, int> n1_info; // nums1[i] -> count
-        for (auto value : nums1){
-            n1_info[value]++;
+        unordered_map<int, int> n1_data; // nums1[i] -> freq
+        for (int val : nums1) {
+            n1_data[val]++;
         }
-        for (int i = 0; i < nums2.size (); i++){
-            int candidate = nums2[i];
-            auto it = n1_info.find (candidate);
-            if (it == n1_info.end ())
+        vector<int> answer;
+        for (int val : nums2) {
+            if (!n1_data.contains (val))
                 continue;
-            if (it->second > 0){
-                it->second--;
-                answer.push_back (it->first);
-            }
+            n1_data[val]--;
+            answer.push_back (val);
+            if (n1_data[val] == 0)
+                n1_data.erase (val);
         }
         return answer;
     }
