@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode dummy;
-        ListNode *head = &dummy;
+        ListNode *curr = &dummy;
         int carry = 0;
         while (l1 || l2 || carry) {
             int sum = 0;
@@ -27,8 +27,9 @@ public:
             }
             sum += carry;
             carry = sum / 10;
-            head->next = new ListNode (sum % 10);
-            head = head->next;
+            ListNode *next = new ListNode (sum % 10);
+            curr->next = next;
+            curr = curr->next;
         }
         return dummy.next;
     }
