@@ -11,21 +11,18 @@
  */
 class Solution {
 public:
-    int answer = 0;    
-    void solve (TreeNode *root, bool is_left) {
+    int solve (TreeNode *root, int is_left) {
         if (!root)
-            return;
-        if (is_left && !root->left && !root->right)
-            answer += root->val;
-        solve (root->left, true);
-        solve (root->right, false);
+            return 0;
+        if (!root->left && !root->right) {
+            return is_left ? root->val : 0;
+        }
+        return solve (root->left, true) + solve (root->right, false);
     }
 
     int sumOfLeftLeaves(TreeNode* root) {
         if (!root)
             return 0;
-        solve (root->left, true);
-        solve (root->right, false);
-        return answer;
+        return solve (root->left, true) + solve (root->right, false);
     }
 };
