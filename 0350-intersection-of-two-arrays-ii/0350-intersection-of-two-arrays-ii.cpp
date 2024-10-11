@@ -7,13 +7,12 @@ public:
         }
         vector<int> answer;
         for (int val : nums2) {
-            unordered_map<int,int>::iterator it = n1_data.find (val);
-            if (it == n1_data.end ())
+            if (!n1_data.contains (val))
                 continue;
-            it->second--;
-            answer.push_back (it->first);
-            if (it->second == 0)
-                n1_data.erase (it);
+            n1_data[val]--;
+            answer.push_back (val);
+            if (n1_data[val] == 0)
+                n1_data.erase (val);
         }
         return answer;
     }
