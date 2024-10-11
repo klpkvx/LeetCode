@@ -1,15 +1,12 @@
 class Solution {
 public:
-    int busyStudent(vector<int>& startTime, vector<int>& endTime, int queryTime) {
-        int answer = 0;
-        int sz = endTime.size ();
-        for (int i = 0 ; i < sz; i++) {
-            int start = startTime[i];
-            int end = endTime[i];
-            if (start <= queryTime && queryTime <= end) {
-                answer++;
-            }
+    int busyStudent(vector<int>& start, vector<int>& end, int target) {
+        int sz = end.size ();
+        int count = 0;
+        for (int i = 0; i < sz; i++) {
+            if (start[i] <= target && target <= end[i])
+                count++;
         }
-        return answer;
+        return count;
     }
 };
