@@ -1,15 +1,14 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int needed_size = needle.size ();
         for (int i = 0; i < haystack.size ();) {
             int start = i;
             int ptr = 0;
-            while (ptr < needed_size && i < haystack.size () && needle[ptr] == haystack[i]) {
-                ptr++;
+            while (i < haystack.size () && ptr < needle.size () && haystack[i] == needle[ptr]) {
                 i++;
+                ptr++;
             }
-            if (ptr == needed_size)
+            if (ptr == needle.size ())
                 return start;
             i = start + 1;
         }
