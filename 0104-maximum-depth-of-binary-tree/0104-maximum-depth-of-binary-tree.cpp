@@ -18,15 +18,15 @@ public:
         todo.push (root);
         int level = 0;
         while (!todo.empty ()) {
-            int n = todo.size ();
+            int size = todo.size ();
             level++;
-            for (int i = 0; i < n; i++) {
-                TreeNode *curr = todo.front ();
+            for (int i = 0; i < size; i++) {
+                TreeNode *vertex = todo.front ();
                 todo.pop ();
-                if (curr->left)
-                    todo.push (curr->left);
-                if (curr->right)
-                    todo.push (curr->right);
+                if (vertex->left)
+                    todo.push (vertex->left);
+                if (vertex->right)
+                    todo.push (vertex->right);
             }
         }
         return level;
