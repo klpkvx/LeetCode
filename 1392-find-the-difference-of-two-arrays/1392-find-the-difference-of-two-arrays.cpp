@@ -1,26 +1,30 @@
 class Solution {
 public:
     vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
-        unordered_set<int> nums1_values;
-        unordered_set<int> nums2_values;
-        vector<int> nums1_which_not_in_nums2;
-        vector<int> nums2_which_not_in_nums1;
-
-        for (int value : nums1)
-            nums1_values.insert (value);
-        for (int value : nums2)
-            nums2_values.insert (value);
-
-        for (int elem : nums1_values){
-            if (!nums2_values.contains (elem))
-                nums1_which_not_in_nums2.push_back (elem);
+        unordered_set<int> n1_data;
+        unordered_set<int> n2_data;
+        for (int i = 0; i < nums1.size (); i++) {
+            n1_data.insert (nums1[i]);
         }
 
-        for (int elem : nums2_values){
-            if (!nums1_values.contains (elem))
-                nums2_which_not_in_nums1.push_back (elem);
+        for (int j = 0; j < nums2.size (); j++) {
+            n2_data.insert (nums2[j]);
         }
+        vector<int> n1_answer;
+        vector<int> n2_answer;
+        for (int i = 0; i < nums2.size (); i++) {
+            if (!n1_data.contains (nums2[i])) {
+                n1_answer.push_back (nums2[i]);
+                n1_data.insert (nums2[i]);
+            }
+        }
+        for (int i = 0; i < nums1.size (); i++) {
+            if (!n2_data.contains (nums1[i])) {
+                n2_answer.push_back (nums1[i]);
+                n2_data.insert (nums1[i]);
+            }
+        }
+        return {n2_answer, n1_answer};
 
-        return {nums1_which_not_in_nums2, nums2_which_not_in_nums1};
     }
 };
