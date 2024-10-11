@@ -4,8 +4,6 @@ public:
         if (nums.empty ())
             return {};
         vector<string> answer;
-        int start = 0;
-        int end = 0;
         for (int i = 0; i < nums.size (); i++) {
             int start = i;
             int end = i;
