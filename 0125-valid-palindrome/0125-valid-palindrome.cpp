@@ -8,16 +8,15 @@ public:
                 left++;
             while (right >= 0 && !isalnum (s[right]))
                 right--;
+
             if (left >= s.size () || right < 0)
                 return true;
-                
-            if (tolower (s[left]) != tolower (s[right])) {
+            
+            if (tolower(s[left]) != tolower (s[right]))
                 return false;
-            } else {
-                left++;
-                right--;
-            }
-        }
+            left++;
+            right--;
+        } 
         return true;
     }
 };
