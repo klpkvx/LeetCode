@@ -8,11 +8,11 @@ public:
             window[s[right]]++;
             while (left < s.size () && window[s[right]] > 1) {
                 window[s[left]]--;
-                if (window[s[left]] <= 0)
-                    window.erase (s[left]);
+                if (window[s[left]] <= 0) 
+                    window[s[left]] = 0;
                 left++;
             }
-            max_len = max (max_len, (int)window.size ());
+            max_len = max (max_len, right - left + 1);
         }
         return max_len;
     }
