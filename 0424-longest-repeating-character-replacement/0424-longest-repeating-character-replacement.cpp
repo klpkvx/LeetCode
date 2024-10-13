@@ -1,13 +1,5 @@
 class Solution {
 public:
-
-    int most_freq (unordered_map<char,int>  &win) {
-        int mx = -1;
-        for (auto &[elem, val] : win)
-            mx =  max (mx, val);
-        return mx;
-    }
-
     int characterReplacement(string s, int k) {
         unordered_map<char, int> win; // s[i] -> freq
         int left = 0;
