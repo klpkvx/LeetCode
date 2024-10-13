@@ -11,13 +11,14 @@
  */
 class Solution {
 public:
-    bool solve (TreeNode *root, long long left, long long right) {
+    bool solve (TreeNode *root, long long min, long long max) {
         if (!root)
             return true;
-      
-        if (left < root->val && root->val < right) {
-            return solve (root->left, left, root->val) && solve (root->right, root->val, right);
+        
+        if (min < root->val && root->val < max) {
+            return solve (root->left, min, root->val) && solve (root->right, root->val, max);
         }
+
         return false;
     }
 
