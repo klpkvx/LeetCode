@@ -9,10 +9,14 @@
  */
 class Solution {
 public:
+// Наименьший общий родитель узлов p и q.
+    TreeNode *solve(TreeNode *root, TreeNode *p, TreeNode *q) {
+        if (!root)
+            return nullptr;
 
-    TreeNode *solve (TreeNode *root, TreeNode *p, TreeNode *q) {
-        if (!root || root == p || root == q)
+        if (root == p || root == q)
             return root;
+            
         TreeNode *left = solve (root->left, p, q);
         TreeNode *right = solve (root->right, p, q);
         if (left && right)
