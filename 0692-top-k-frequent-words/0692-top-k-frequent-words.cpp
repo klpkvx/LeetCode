@@ -1,31 +1,24 @@
 class Solution {
 public:
     vector<string> topKFrequent(vector<string>& words, int k) {
-        unordered_map<string, int> data; // word -> frequency
+        unordered_map<string, int> data; // word[i] -> frequency
         for (const string &word : words) {
             data[word]++;
         }
 
-        auto cmp = [] (const pair<int,string> &left, const pair<int,string> &right) {
-            if (left.first == right.first) {
-                return left.second > right.second;
-            }
-            return left.first < right.first;
+        auto cmp = [] (pair<string,int> &lhs, pair<string,int> &rhs) {
+            if (lhs.second == rhs.second)
+                return !(lhs.first < rhs.first);
+            return lhs.second < rhs.second;
         };
-
-        priority_queue<pair<int, string>, vector<pair<int,string>>, decltype (cmp)> pq (cmp);
-        for (const auto &[word, freq] : data) {
-            pq.push ({freq, word});
+        priority_queue<pair<string, int>, vector<pair<string,int>>, decltype (cmp)> pq (cmp);
+        for (auto &[str, val] : data) {
+            pq.push ({str, val});
         }
 
         vector<string> answer;
-        while (!pq.empty ()) {
-            auto  &elem = pq.top ();
-            if (k-- > 0)
-                answer.push_back (elem.second);
-            else {
-                break;
-            }
+        while (!pq.empty () && k--) {
+            answer.push_back (pq.top ().first);
             pq.pop ();
         }
         return answer;
