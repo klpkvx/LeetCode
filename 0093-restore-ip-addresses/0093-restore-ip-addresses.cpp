@@ -17,8 +17,8 @@ private:
         if (s.size () - index > (4 - dots) * 3)
             return;
 
-        if (s.size () - index < 4 - dots)
-            return;
+    //    if (s.size () - index < 4 - dots)
+    //        return;
 
         int num = 0;
         for (int i = index; i < index + 3; i++) {
