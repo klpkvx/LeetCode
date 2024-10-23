@@ -1,22 +1,22 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        unordered_map<char, int> win; // s[i] -> freq
+        unordered_map<char, int> freqs; // letter -> count
         int left = 0;
-        int max_len = 0;
-        int max_count = INT_MIN;
+        int mx = 0;
+        int mx_freq = 0;
         for (int right = 0; right < s.size (); right++) {
-            win[s[right]]++;
-            max_count = max (max_count, win[s[right]]);
-            while (left < s.size () && right - left + 1 - max_count > k) {
-                win[s[left]]--;
-                max_count = max (max_count, win[s[left]]);
-                if (win[s[left]] == 0)
-                    win.erase (s[left]);
+            freqs[s[right]]++;
+            mx_freq = max (mx_freq, freqs[s[right]]);
+            while (left < s.size () && right - left + 1  - mx_freq > k) {
+                mx_freq = max (mx_freq, freqs[s[left]]);                
+                freqs[s[left]]--;
+                if (freqs[s[left]] == 0)
+                    freqs.erase (s[left]);
                 left++;
             }
-            max_len = max (max_len, right - left + 1);
+            mx = max (mx, right - left + 1);
         }
-        return max_len;
+        return mx;
     }
 };
