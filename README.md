@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/klpkvx/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/klpkvx/LeetCode/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1119-robot-bounded-in-circle](https://github.com/klpkvx/LeetCode/tree/master/1119-robot-bounded-in-circle) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/klpkvx/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/klpkvx/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Sorting
 |  |
@@ -673,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/klpkvx/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/klpkvx/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/klpkvx/LeetCode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/klpkvx/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/klpkvx/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1833-find-the-highest-altitude](https://github.com/klpkvx/LeetCode/tree/master/1833-find-the-highest-altitude) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/klpkvx/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
