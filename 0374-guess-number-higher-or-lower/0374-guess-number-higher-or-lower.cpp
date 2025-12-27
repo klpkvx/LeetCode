@@ -10,14 +10,19 @@
 class Solution {
 public:
     int guessNumber(int n) {
-        long long int result = guess (n);
-
-        if (result == 0)
-          return n;
-        
-        if (result == 1)
-          return guessNumber (n + 1);
-        else
-          return guessNumber (n - 1);  
+        int l = 0;
+        int r = n;
+        while (l <= r)
+        {
+            int mid = l + (r - l) / 2;
+            int res = guess (mid);
+            if (res == -1) // mid > pick
+                r = mid - 1;
+            else if (res == 1) // mid < pick
+                l = mid + 1;
+            else
+              return mid;    
+        }
+        return -1;
     }
 };
