@@ -9,14 +9,19 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        ListNode *slow = head;
-        ListNode *fast = head;
-        while (fast && fast->next) {
-            slow = slow->next;
-            fast = fast->next->next;
-            if (fast == slow)
-                return true;
+        std::set<ListNode *> mm;
+        ListNode *curr = head;
+        while (curr)
+        {
+            if (mm.contains (curr))
+            {
+              return true;
+            }
+            mm.insert (curr);
+            curr = curr->next;
+
         }
+
         return false;
     }
 };
