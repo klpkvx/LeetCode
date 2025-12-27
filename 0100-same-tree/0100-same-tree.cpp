@@ -11,27 +11,17 @@
  */
 class Solution {
 public:
-
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        queue<TreeNode *> todo;
-        todo.push (p);
-        todo.push (q);
-        while (!todo.empty ()) {
-            TreeNode *q2 = todo.front ();
-            todo.pop ();
-            TreeNode *p2 = todo.front ();
-            todo.pop ();
-            if (!p2 && !q2)
-                continue;
-            if (!p2 || !q2)
-                return false;
-            if (p2->val != q2->val)
-                return false;
-            todo.push (p2->left);
-            todo.push (q2->left);
-            todo.push (p2->right);
-            todo.push (q2->right);
+        if (p && q)
+        {
+            return p->val == q->val 
+            &&  isSameTree (p->left, q->left)
+            &&  isSameTree (p->right, q->right);
         }
-        return true;
+
+        if (!p && !q)
+            return true;
+
+        return false;
     }
 };
